@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Muhammad Harsandy | Portfolio</title>
+
+    <meta name="description" content="Portfolio Muhammad Harsandy - Staff Operasional & IoT Enthusiast dengan pengalaman dalam automation dan sistem industri.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">MH</div>
+
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact" class="btn-nav">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+
+    <div class="hero-left">
+        <h4>Hello, I'm</h4>
+        <h1>Muhammad Harsandy</h1>
+        <p>Staff Operasional | IoT & Automation Enthusiast</p>
+        <a href="assets/CV.pdf" class="btn-primary" download>Download CV</a>
+
+        <div class="social-icons">
+            <a href="mailto:harsandy01@gmail.com" aria-label="Kirim Email">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://wa.me/62887435447188" target="_blank" rel="noopener" aria-label="Chat WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://instagram.com/reystefany1st" target="_blank" rel="noopener" aria-label="Instagram Profile">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="hero-right">
+        <img src="ground.png" alt="Foto profil Muhammad Harsandy - Staff Operasional dan IoT Enthusiast">
+    </div>
+
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-desc">
+            Saya adalah individu yang sistematis dan disiplin dengan minat pada 
+            otomasi sistem dan operasional industri. Berpengalaman dalam 
+            Google Apps Script, spreadsheet automation, dan pengembangan 
+            sistem berbasis MQTT.
+        </p>
+
+        <div class="about-stats">
+            <div class="stat">
+                <h3>3+</h3>
+                <p>Tahun Pengalaman</p>
+            </div>
+            <div class="stat">
+                <h3>2</h3>
+                <p>Project Selesai</p>
+            </div>
+            <div class="stat">
+                <h3>IoT</h3>
+                <p>Specialization</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+            <div class="skill-card">Administrasi Operasional</div>
+            <div class="skill-card">Google Apps Script</div>
+            <div class="skill-card">MQTT System</div>
+            <div class="skill-card">Spreadsheet Automation</div>
+            <div class="skill-card">Problem Solving</div>
+            <div class="skill-card">Data Management</div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="section">
+    <div class="container">
+        <h2 class="section-title">Portfolio</h2>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Bot Telegram Reminder</h3>
+                <p>Sistem pengingat otomatis berbasis Google Apps Script dan Spreadsheet.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>MQTT Monitoring System</h3>
+                <p>Rancang bangun broker MQTT berbasis Raspberry Pi untuk monitoring data industri.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="experience" class="section bg-light">
+    <div class="container">
+        <h2 class="section-title">Experience</h2>
+
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Staff Operasional</h3>
+                <span>2024 - Sekarang</span>
+                <p>Administrasi operasional dan pengolahan data industri.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>Magang Industri</h3>
+                <span>2023</span>
+                <p>Pengelolaan data dan dokumentasi operasional perusahaan.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <div class="container">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-wrapper">
+
+            <!-- LEFT SIDE : INFO -->
+            <div class="contact-info">
+                <h3>Muhammad Harsandy</h3>
+                
+                <p class="contact-desc">
+                    Staff Operasional dan IoT Enthusiast yang memiliki minat 
+                    dalam pengembangan sistem monitoring, teknologi IoT, 
+                    dan digitalisasi proses operasional.
+                </p>
+
+                <div class="contact-details">
+                    <p><strong>Alamat:</strong><br>
+                    Jl. Barukang Raya No. 52, Makassar, Indonesia</p>
+
+                    <p><strong>Email:</strong><br>
+                    harsandy01@gmail.com</p>
+
+                    <p><strong>WhatsApp:</strong><br>
+                    +62 887-4354-47188</p>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDE : FORM -->
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Nama Lengkap" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Pesan Anda..." required></textarea>
+                <button type="submit" class="btn-primary">Kirim Pesan</button>
+            </form>
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Muhammad Harsandy. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
