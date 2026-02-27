@@ -290,4 +290,66 @@ footer {
 
 .social-icons {
     margin-top: 10px;
+
+}
+
+/* ================= MOBILE VERSION ================= */
+@media (max-width: 768px) {
+
+    /* HERO SECTION */
+    .hero {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .hero-left,
+    .hero-right {
+        width: 100%;
+        padding: 60px 30px;
+        text-align: center;
+    }
+
+    .hero-right img {
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    /* NAVBAR */
+    .navbar {
+        padding: 15px 30px;
+    }
+
+    .nav-links {
+        display: none; /* sementara disembunyikan */
+    }
+
+    /* SKILLS */
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* PROJECTS */
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* CONTACT */
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .section {
+        padding: 60px 30px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .hero-left h1 {
+        font-size: 32px;
+    }
+
+    .hero-left p {
+        font-size: 16px;
+    }
 }
