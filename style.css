@@ -75,7 +75,7 @@ body {
 }
 
 .hero-left h1 {
-    font-size: 60px;
+    font-size: clamp(32px, 5vw, 48px);
     font-weight: 700;
     letter-spacing: -1px;
     margin-bottom: 15px;
@@ -351,3 +351,4 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
